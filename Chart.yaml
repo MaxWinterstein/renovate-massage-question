@@ -1,0 +1,9 @@
+apiVersion: v2
+name: my-gitlab-runner
+version: 1.19.0
+type: library
+
+dependencies:
+  - name: gitlab-runner
+    repository: https://charts.gitlab.io
+    version: 0.66.0
